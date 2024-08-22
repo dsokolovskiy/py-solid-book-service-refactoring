@@ -29,4 +29,4 @@ class BookPrinter:
         elif print_type == "reverse":
             ReversePrinter().print_book(book)
         else:
-            raise ValueError(f"Unknown print_type: {print_type}")
+            raise ValueError(f"Unknown print type: {print_type}")
